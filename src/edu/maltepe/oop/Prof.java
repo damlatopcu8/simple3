@@ -1,9 +1,13 @@
 package edu.maltepe.oop;
 
 public class Prof {
-    private String profname;
+    public String profname;
+
     public Prof(String name){
         this.profname = name;
-        Prof prof1 = new Prof("Ensar Gül");
+    }
+
+    public void read(Book book1){
+        System.out.println(profname+ " read " + book1.bookname + ".");
     }
 }
