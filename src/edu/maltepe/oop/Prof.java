@@ -1,7 +1,7 @@
 package edu.maltepe.oop;
 
 public class Prof {
-    public String profname;
+    private String profname;
 
     public Prof(String name){
         this.profname = name;
